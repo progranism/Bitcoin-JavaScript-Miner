@@ -57,7 +57,10 @@ This is a list of the files and what they do:
 
 
 
+Thank You
+---------
 
 If you like this project, feel free contribute code, comments, and even Bitcoin donations.
+
 *Donation Address*: 16TUsJ6ToAxp1a9RmTCGnox99MocGSYLaD
 
