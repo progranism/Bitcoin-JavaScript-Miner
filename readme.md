@@ -7,9 +7,9 @@ Bitcoin JavaScript Miner
 What is it?
 -----------
 
-This is a Bitcoin Miner implemented in Javascript. It's intended for use
+This is a Bitcoin Miner implemented in JavaScript. It is intended for use
 in a [Bitcoin Mining Pool](https://en.bitcoin.it/wiki/Pooled_mining), but
-its main purpose to act as a learning tool. Feel free to browse the commented source-code
+its main purpose is to act as a learning tool. Feel free to browse the commented source-code
 and learn more about how Bitcoins are mined.
 
 [Learn more about Bitcoin](http://www.bitcoin.org/ "Bitcoin")
@@ -42,6 +42,19 @@ mining pool; nor has it been tested for 100% correct operation.
 
 As time allows, I will strive to complete the code so that it works with an
 actual mining pool.
+
+
+
+File Desctriptions
+------------------
+
+This is a list of the files and what they do:
+
+* **index.html** - The webpage for JsMiner. Provides an interface to start the mining process and view mining statistics.
+* **miner.js** - This is where the Bitcoin Mining is done. It is invoked as a Web Worker (JavaScript thread).
+* **sha256.js** - SHA-256 functions implemented in JavaScript.
+* **work-manager.js** - Code to getwork, submitwork, and manage the Miner threads.
+
 
 
 
